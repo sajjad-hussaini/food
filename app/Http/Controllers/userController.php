@@ -8,7 +8,7 @@ class userController extends Controller
 {
     function index($name){
       
-        return view('index',['name'=>$name,'user'=>$name]);
+        return view('index',['name'=>$name,]);
         
     }
 }
